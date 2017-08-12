@@ -1,0 +1,227 @@
+[data-reactroot] {
+  height: 180% !important;
+  position: absolute !important;
+  width: 100% !important;
+  background-color: rgba(20, 20, 20, .9);
+}
+html{
+  font-family: Helvetica;
+  /*overflow: hidden;*/
+}
+body {
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 60px;
+  font-family: Helvetica;
+}
+.left-col {
+
+}
+.form {
+  height: auto;
+  width: auto;
+  /*background-color: rgba(20,20,20, 1);*/
+}
+
+/*.form h1 {
+  color: skyblue;
+  text-align: center;
+  opacity: 1;
+  font-weight: 200;
+  padding: 8px;
+}*/
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: skyblue;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.btn {
+  font-size: 14px !important;
+  font-weight: 100 !important;
+}
+.top-container {
+  margin: 4px;
+  display: flex;
+}
+
+nav {
+  margin-top: -8px;;
+  background-color: rgba(10, 10, 10, .7);
+  font-size: 18px;
+}
+.user-info {
+  padding: 2px;
+  margin: 5px;
+  z-index: 9000;
+  opacity: 1;
+  color: skyblue;
+  font-size: 20px;
+  align-items: center;
+}
+.notes-container {
+  display: flex;
+
+  /*justify-content: center;*/
+}
+textarea {
+  min-width: 30vw !important;
+  background-color: rgba(20,20,20, .35);
+  color: gray;
+}
+.all-notes {
+  /*border: 1px black solid;*/
+  border-radius: 5px;
+  resize: none;
+  outline-style: none;
+}
+.reasonsNotesContainer {
+  /*display: ;*/
+  margin-left: 800px;
+  margin-top: -200px;
+}
+.studyNotesContainer {
+  margin-left: -400px;
+  margin-top: -30px;
+
+  /*margin-left: 50px;*/
+}
+.addPDF {
+  height: 2em;
+  border-radius: 5px;
+  resize: none;
+  outline-style: none;
+  display: flex;
+  margin-left: 10px;
+}
+.addPDF:focus {
+  height: 30em;
+  width: 80%;
+}
+.pdfBtn {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+}
+.cancelBtn {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+}
+#studyNotes {
+  margin-bottom: 8px !important;
+  margin-left: 16px;
+}
+.study-label {
+  margin-right: 15px;
+}
+#reasons {
+  margin-left: 15px;
+}
+hr {
+  background-color: gray;
+}
+/*  Submit Button  */
+.AddStudy {
+  margin: 4px;
+  margin-bottom: 7px;
+  /*background-color: skyblue !important;*/
+}
+.AddStudy:hover {
+}
+.SaveBtn {
+  margin: 4px;
+  margin-bottom: 7px;
+}
+.add-stuff-container {
+  text-align: right;
+}
+imput {
+  padding: 10px;
+}
+.accessionNum {
+  background-color: rgba(20,20,20, .35);
+  color: gray;
+  outline-style: none;
+  border-radius: 5px;
+  border:1px gray solid;
+}
+.state-level-container {
+  display: inline-block;
+  margin-top: 10px;
+}
+.state-level {
+  margin-left: 15px;
+  padding-left: 1px;
+}
+
+/*.fax {
+  background-color: rgba(20,20,20, .35);
+  color: gray;
+  outline-style: none;
+  border-radius: 5px;
+  border:1px gray solid;
+}*/
+#order-facility {
+
+}
+.order-facility {
+  margin-left: 15px;
+  padding-left: 1px;
+}
+.PID3 {
+  margin: 8px;
+  margin-left: 16px;
+  background-color: rgba(20,20,20, .35);
+  color: gray;
+  outline-style: none;
+  border-radius: 5px;
+  border:1px gray solid;
+}
+#PID3 {
+  margin-left: 16px;
+}
+.OBR3 {
+  margin-left: 16px;
+  margin-right: 8px;
+  background-color: rgba(20,20,20, .35);
+  color: gray;
+  outline-style: none;
+  border-radius: 5px;
+  border:1px gray solid;
+}
+#OBR3 {
+  margin-left: 16px;
+}
+.material-icons {
+  margin: auto;
+  padding: 0;
+  color: gray;
+}
+
+.input-container {
+  display: flex;
+  float: right;
+}
+.fa-plus {
+  float: right;
+}
+.study-type {
+  display: flex;
+}
+#study-type {
+  margin-left: 16px;
+}
+#current {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+#prior {
+  margin-right: 16px;
+  margin-left: 16px;
+}
