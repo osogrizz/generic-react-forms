@@ -44,7 +44,7 @@ export class OBR3 extends React.Component {
           </div>
         )
       }
-      return inputItems || null
+      return inputItems
     }
 
 
