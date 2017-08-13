@@ -18,17 +18,19 @@ export class InputField2 extends React.Component {
   }
 
 
-  handleRemove (i) {
+  handleRemove (i, event) {
     let value = this.state.value.slice()
     value.splice(i, 1)
     this.setState({
       count: this.state.count - 1,
       value
     })
+    event.preventDefault()
   }
 
-  handleAddInput () {
+  handleAddInput (event) {
     this.setState({count: this.state.count + 1})
+    event.preventDefault()
   }
 
 
@@ -44,7 +46,7 @@ export class InputField2 extends React.Component {
           </div>
         )
       }
-      return inputItems
+      return inputItems 
     }
 
 

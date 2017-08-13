@@ -26,6 +26,7 @@ export class Form extends React.Component {
   render() {
     return(
       // <Provider store={store}>
+      <form action=''>
         <div className="form container">
             <UserInfo />
           <div className="top-container">
@@ -35,7 +36,8 @@ export class Form extends React.Component {
           <div className="left-col col-md-6">
             <StatLevel />
             <PID3 />
-            <InputField2
+            <InputField2 value={this.state.value}
+
 
             />
           </div>
@@ -52,6 +54,8 @@ export class Form extends React.Component {
 
           </div>
         </div>
+      </form>
+
       // </Provider>
     );
   }
