@@ -39,22 +39,21 @@ export class InputField2 extends React.Component {
       for (let i = 0; i < this.state.count; i++) {
         inputItems.push(
           <div key={i}>
-            <input className='Input2' type='text' value={this.state.value[i]} onChange={this.handleChange.bind(this, i)} />
-            <button type='delete' value='Delete' onClick={this.handleRemove.bind(this, i)}>
+            <input className='Input2' type='text' value={this.state.value[i] || ''} onChange={this.handleChange.bind(this, i)} />
+            <button className='add-removeBtn' type='delete' value='Delete' onClick={this.handleRemove.bind(this, i)}>
               <i className="material-icons">remove</i>
             </button>
           </div>
         )
       }
-      return inputItems 
+      return inputItems
     }
-
 
   render() {
     return (
       <div>
         <p id='Input2'>Input2</p>
-        <button type='submit' value='Submit' onClick={this.handleAddInput.bind(this)}>
+        <button className='add-removeBtn' type='submit' value='Submit' onClick={this.handleAddInput.bind(this)}>
           <i className="material-icons">add</i>
         </button>
         {this.createInput()}

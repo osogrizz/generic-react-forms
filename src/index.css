@@ -203,7 +203,11 @@ imput {
   padding: 0;
   color: gray;
 }
-
+.add-removeBtn {
+  background: none;
+  border: none;
+  outline: none !important;
+}
 .input-container {
   display: flex;
   float: right;

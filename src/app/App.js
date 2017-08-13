@@ -36,10 +36,7 @@ export class Form extends React.Component {
           <div className="left-col col-md-6">
             <StatLevel />
             <PID3 />
-            <InputField2 value={this.state.value}
-
-
-            />
+            <InputField2 />
           </div>
           <div className="notes-container col-md-4">
             <Notes />
