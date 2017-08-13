@@ -11,16 +11,16 @@ import { Accession } from './Accession'
 import { AddStuffUI } from './AddStuffUI'
 import { StatLevel } from './StatLevel'
 import { PID3 } from './PID3'
-import { OBR3 } from './OBR3'
+import { InputField2 } from './InputField2'
 
 export class Form extends React.Component {
   constructor() {
     super()
 
-    // this.state = {
-    //   inputValues: {},
-    //   inputs: []
-    // }
+    this.state = {
+      value: [],
+      count: 1
+    }
   }
 
   render() {
@@ -35,7 +35,7 @@ export class Form extends React.Component {
           <div className="left-col col-md-6">
             <StatLevel />
             <PID3 />
-            <OBR3
+            <InputField2
 
             />
           </div>

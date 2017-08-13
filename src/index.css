@@ -186,7 +186,7 @@ imput {
 #PID3 {
   margin-left: 16px;
 }
-.OBR3 {
+.Input2 {
   margin-left: 16px;
   margin-right: 8px;
   background-color: rgba(20,20,20, .35);
@@ -195,7 +195,7 @@ imput {
   border-radius: 5px;
   border:1px gray solid;
 }
-#OBR3 {
+#Input2 {
   margin-left: 16px;
 }
 .material-icons {

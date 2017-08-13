@@ -1,6 +1,6 @@
 import React from 'react'
 
-export class OBR3 extends React.Component {
+export class InputField2 extends React.Component {
   constructor(props) {
     super(props)
 
@@ -37,7 +37,7 @@ export class OBR3 extends React.Component {
       for (let i = 0; i < this.state.count; i++) {
         inputItems.push(
           <div key={i}>
-            <input className='OBR3' type='text' value={this.state.value[i]} onChange={this.handleChange.bind(this, i)} />
+            <input className='Input2' type='text' value={this.state.value[i]} onChange={this.handleChange.bind(this, i)} />
             <button type='delete' value='Delete' onClick={this.handleRemove.bind(this, i)}>
               <i className="material-icons">remove</i>
             </button>
@@ -51,7 +51,7 @@ export class OBR3 extends React.Component {
   render() {
     return (
       <div>
-        <p id='OBR3'>OBR3</p>
+        <p id='Input2'>Input2</p>
         <button type='submit' value='Submit' onClick={this.handleAddInput.bind(this)}>
           <i className="material-icons">add</i>
         </button>
@@ -60,5 +60,3 @@ export class OBR3 extends React.Component {
     )
   }
 }
-
-{/* <RemoveInput onClick={this.handleRemove.bind(this)} /> */}
