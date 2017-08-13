@@ -29,20 +29,33 @@ export class Form extends React.Component {
       <form action=''>
         <div className="form container">
             <UserInfo />
-          <div className="top-container">
+          <div className="top-container row-container">
             <Accession />
             <AddStuffUI />
           </div>
-          <div className="left-col col-md-6">
-            <StatLevel />
-            <PID3 />
-            <InputField2 />
+          <div className="row-container ">
+            <div className='column-container col-md-6'>
+              <StatLevel />
+              <PID3 />
+              <div className='row-container'>
+                <div>
+                  <InputField2 />
+                  <br/>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+
+            <div className="column-container col-md-6">
+              <Notes />
+              <StudyNotes/>
+            </div>
           </div>
-          <div className="notes-container col-md-4">
-            <Notes />
-            <StudyNotes/>
+          <div className='row-container'>
+            <StudyType />
           </div>
-        <StudyType />
+
           <hr></hr>
           <div className="container">
             <AddPDF />
